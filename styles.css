@@ -1,13 +1,34 @@
 .pt-5 {
-    margin-top: 0 !important;
-    
+  margin-top: 0 !important;
 }
 
 .section {
-    background-image: linear-gradient(to right, #0153A2, #5038A4);
-    color: aliceblue;
-    padding: 10rem 0!important;
+  background: linear-gradient(to right, #0153a2, #5038a4);
+  color: aliceblue;
+  padding: 10rem 0 !important;
+
 }
-.section2{
-    padding: 10rem 0!important;
+.section2 {
+  padding: 10rem 0 !important;
+}
+.section3 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10rem;
+  flex-wrap: wrap;
+}
+.iscards {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20rem;
+  padding: 2rem 2rem 2rem 1rem;
+  margin-bottom: 2rem;
+}
+.iscards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.iscards-middle {
+  background: #0E5AD8;
+  color: aliceblue;
 }
