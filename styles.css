@@ -1,0 +1,13 @@
+.pt-5 {
+    margin-top: 0 !important;
+    
+}
+
+.section {
+    background-image: linear-gradient(to right, #0153A2, #5038A4);
+    color: aliceblue;
+    padding: 10rem 0!important;
+}
+.section2{
+    padding: 10rem 0!important;
+}
