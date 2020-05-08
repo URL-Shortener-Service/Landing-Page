@@ -3,7 +3,7 @@
 }
 
 .section {
-  background: linear-gradient(to right, #0153a2, #5038a4);
+  background: #8ec6c5;
   color: aliceblue;
   padding: 10rem 0 !important;
 
@@ -16,6 +16,9 @@
   justify-content: space-around;
   padding-bottom: 10rem;
   flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+
 }
 .iscards {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -29,6 +32,68 @@
 }
 
 .iscards-middle {
-  background: #0E5AD8;
+  background: #8ec6c5;
   color: aliceblue;
+}
+.section4 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10rem;
+  flex-wrap: wrap;
+  color: aliceblue;
+
+  background-color: #6983aa;
+}
+@media (max-width: 768px) { 
+  .text {
+    width: 80vw !important;
+    
+  }
+  img {
+    width: 80vw;
+  }
+}
+
+#let{
+  background: #8ec6c5 !important;
+  
+
+}
+
+.navbar-brand{
+  color: aliceblue !important;
+}
+
+.btn-lg {
+  width: 20% !important;
+  
+}
+.btn-getstarted{
+  height: 45px;
+  width: 200px;
+  border: 1px solid;
+  color: #fff;
+  background-color: hsl(224, 93%, 58%);
+  border-radius: 3px;
+  margin: 7px 0;
+  border-style: none;
+}
+
+.a {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.footertext{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.section5 {
+  padding: 10rem;
+}
+.div1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
