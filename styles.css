@@ -4,9 +4,8 @@
 
 .section {
   background: #8ec6c5;
-  color: aliceblue;
+  color: black;
   padding: 10rem 0 !important;
-
 }
 .section2 {
   padding: 10rem 0 !important;
@@ -18,17 +17,16 @@
   flex-wrap: wrap;
   width: 70%;
   margin: 0 auto;
-
 }
 .iscards {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20rem;
   padding: 2rem 2rem 2rem 1rem;
   margin-bottom: 2rem;
 }
 .iscards:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .iscards-middle {
@@ -44,31 +42,27 @@
 
   background-color: #6983aa;
 }
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .text {
     width: 80vw !important;
-    
   }
   img {
     width: 80vw;
   }
 }
 
-#let{
+#let {
   background: #8ec6c5 !important;
-  
-
 }
 
-.navbar-brand{
+.navbar-brand, .nav-link {
   color: aliceblue !important;
 }
 
 .btn-lg {
   width: 20% !important;
-  
 }
-.btn-getstarted{
+.btn-getstarted {
   height: 45px;
   width: 200px;
   border: 1px solid;
@@ -84,7 +78,7 @@
   padding-bottom: 2rem;
 }
 
-.footertext{
+.footertext {
   text-align: center;
   padding-bottom: 2rem;
 }
@@ -96,4 +90,22 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  background-color: #03060E;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+}
+
+.para{
+  padding-left: 1rem;
 }
